@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-responsive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  },
+  "devDependencies": {
+    "hint": "^7.1.8",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaveryIV/Portfolio-Responsive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaveryIV/Portfolio-Responsive/issues"
+  },
+  "homepage": "https://github.com/SaveryIV/Portfolio-Responsive#readme",
+  "keywords": [],
+  "description": ""
+}
