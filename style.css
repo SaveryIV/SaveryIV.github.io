@@ -9,7 +9,7 @@
 
 @media only screen and (max-width: 600px) {
   body {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     margin: 0;
   }
@@ -28,15 +28,13 @@
   }
 
   .section-container {
-    background-color: #ffffff;
+    background-color: #fff;
     height: 60vh;
     width: 100vw;
-    left: 0px;
-    top: 0px;
   }
 
   .logo {
-    font-family: Poppins-Bold;
+    font-family: Poppins-Bold, sans-serif;
     flex-shrink: 3;
     max-height: 5%;
     max-width: 20%;
@@ -54,7 +52,6 @@
   article {
     display: flex;
     flex-direction: column;
-    border-bottom-left-radius: 1cap;
     background-image: url("./resources/images/header-shapes\ mobilebackground-Main.png");
   }
 
@@ -63,13 +60,13 @@
   }
 
   .item3 {
-    background-color: #ffffff;
+    background-color: #fff;
     height: 50vh;
     border-bottom-left-radius: 20%;
   }
 
   .title {
-    font-family: Poppins-Bold;
+    font-family: Poppins-Bold, sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
