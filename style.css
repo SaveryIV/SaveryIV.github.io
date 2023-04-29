@@ -109,6 +109,16 @@
     padding-right: 10vw;
   }
 
+  .color {
+    color: #000 !important;
+  }
+
+  .dot {
+    padding-left: 15px;
+    width: 10px;
+    height: 10px;
+  }
+
   .span2 {
     display: flex;
     justify-content: left;
@@ -166,8 +176,12 @@
     display: flex;
     justify-content: left;
     list-style: none;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-bottom: 10px;
+  }
+
+  .span-grid li {
+    color: #7a869a;
   }
 
   h2 {
@@ -264,15 +278,6 @@
     padding-top: 30px;
     margin-bottom: 20px;
   }
-
-  /* .span2 {
-    display: flex;
-    justify-content: left;
-    list-style: none;
-    padding-left: 1%;
-    padding-right: 10vw;
-    margin-bottom: 0;
-  } */
 
   .button-footer {
     font-family: Poppins, sans-serif;
