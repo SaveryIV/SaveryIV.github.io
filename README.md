@@ -51,7 +51,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Hello Microverse!] <a name="about-project"></a>
 
-**[Responsive Portfolio]** is a short project with the objective of start practicing the professional way to work with CSS and HTML in responsive design, using the basic structure, data query, flexbox and finally following a template in Figma.
+**[Responsive Portfolio]** is a short project with the objective of start practicing the professional way to work with CSS and HTML in responsive design, using the basic structure, data query, flexbox, CSS Grid and all following a template in Figma.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,8 +74,8 @@ After you're finished please remove all the comments and instructions!
 > Describe between 1-3 key features of the application.
 
 - **[Have made with, Flexbox directly from a templete in Figma]**
-- **[Have 2 branches, in the main branch is the code of the project and in the feature branch are the linters]**
-- **[In this project, we are making a responsive portfolio, in this first step programmed for small devices]**
+- **[Have a card system, a list of technologys and all made it with CSS Grid and Flexbox]**
+- **[In this project, we end with the movile version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,8 +143,8 @@ To run the project:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[This project gonna be maked in a full responsive way]**
-- [ ] **[Soon a Card area, to see other projects maked.]**
+- [ ] **[Responsive for Desktops]**
+- [ ] **[Forms for get contact with me]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +168,7 @@ If you like this project share it with others you think can help to learn someth
 
 > Im want thank to this Reviewers who take to their time to see my code and give me solid advices and professional reviews of my code.
 
-I would like to thank (@NahnahAJ)https://github.com/NahnahAJ, (@Efiamotu-1)https://github.com/Efiamotu-1/
+I would like to thank (@NahnahAJ)https://github.com/NahnahAJ, (@Efiamotu-1)https://github.com/Efiamotu-1/ (My personal favorite reviewers XD)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
