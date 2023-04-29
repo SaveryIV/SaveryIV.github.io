@@ -109,6 +109,16 @@
     padding-right: 10vw;
   }
 
+  .color {
+    color: #000 !important;
+  }
+
+  .dot {
+    padding-left: 15px;
+    width: 10px;
+    height: 10px;
+  }
+
   .span2 {
     display: flex;
     justify-content: left;
@@ -166,17 +176,8 @@
     display: flex;
     justify-content: left;
     list-style: none;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-bottom: 10px;
-  }
-
-  .span-grid li {
-    margin-left: 20px;
-    margin-top: 0;
-    font-family: Poppins-bold, sans-serif;
-    opacity: 0.5;
-    font-size: 13px;
-    line-height: 16px;
   }
 
   h2 {
@@ -196,7 +197,7 @@
     font-size: 15px;
     line-height: 24px;
     padding-left: 25px;
-    margin-bottom: 30pxz;
+    margin-bottom: 30;
     margin-top: 5px;
   }
 
@@ -205,16 +206,6 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 16px;
-  }
-
-  .span-grid2 {
-    display: flex;
-    height: 24px;
-    justify-content: left;
-    list-style: none;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-left: 25px;
   }
 
   .span-grid2 li {
@@ -239,7 +230,6 @@
     font-size: 17px;
     line-height: 24px;
     color: #396df2;
-    border-radius: 5%;
     border-color: #396df2;
     background-color: #fff;
     margin-left: 25px;
@@ -285,15 +275,6 @@
     margin-bottom: 20px;
   }
 
-  /* .span2 {
-    display: flex;
-    justify-content: left;
-    list-style: none;
-    padding-left: 1%;
-    padding-right: 10vw;
-    margin-bottom: 0;
-  } */
-
   .button-footer {
     font-family: Poppins, sans-serif;
     width: 150px;
@@ -302,7 +283,6 @@
     font-size: 17px;
     line-height: 24px;
     color: #396df2;
-    border-radius: 5%;
     border-color: #396df2;
     background-color: #fff;
     margin-left: 25px;
@@ -314,9 +294,6 @@
   .list-work {
     width: 80%;
     border-right-width: 20%;
-  }
-
-  .list-work {
     list-style: none;
     padding-bottom: 25px;
   }
@@ -350,12 +327,15 @@
   .span-grid2 {
     display: flex;
     justify-content: left;
+    height: 24px;
     list-style: none;
     padding-left: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .span-grid li {
+    color: #7a869a;
     margin-left: 20px;
     margin-top: 0;
     font-family: Poppins-bold, sans-serif;
