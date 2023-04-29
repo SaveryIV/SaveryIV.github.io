@@ -181,7 +181,6 @@
   }
 
   .span-grid li {
-    color: #7a869a;
   }
 
   h2 {
@@ -339,6 +338,7 @@
   }
 
   .span-grid li {
+    color: #7a869a;
     margin-left: 20px;
     margin-top: 0;
     font-family: Poppins-bold, sans-serif;
