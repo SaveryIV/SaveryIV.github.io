@@ -413,7 +413,7 @@
     border-radius: 5px;
     font-family: Poppins, sans-serif;
     border: 1px solid #cfd8dc;
-    background-color: #ffffff;
+    background-color: #fff;
     width: 85vw;
     height: 5vh;
   }
@@ -423,7 +423,7 @@
     border-radius: 5px;
     font-family: Poppins, sans-serif;
     border: 1px solid #cfd8dc;
-    background-color: #ffffff;
+    background-color: #fff;
     width: 85vw;
     height: 20vh;
   }
@@ -434,9 +434,8 @@
     border-radius: 5px;
     font-family: Poppins, sans-serif;
     border: 1px solid #cfd8dc;
-    background-color: #ffffff;
+    background-color: #fff;
     width: 27vw;
     height: 5vh;
-    border: 0;
   }
 }
