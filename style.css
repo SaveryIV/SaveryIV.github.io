@@ -65,7 +65,7 @@
   }
 
   .item3 {
-    height: 50vh;
+    height: 40vh;
     border-bottom-left-radius: 20%;
   }
 
@@ -326,7 +326,6 @@
 
   .span-grid2 {
     display: flex;
-    justify-content: left;
     height: 24px;
     list-style: none;
     padding-left: 10px;
@@ -360,5 +359,102 @@
     padding-top: 8px;
     width: 45px;
     height: 45px;
+  }
+
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 70px;
+    background: #6070ff;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 0;
+    min-height: 80vh;
+    background-image: url("./resources/work-section/images/contact\ form\ shapes-mobile@2x.png");
+    background-size: 207px;
+    background-position: right 30px;
+    background-repeat: no-repeat;
+  }
+
+  .title-form {
+    padding-top: 70px;
+    font-family: Poppins-bold, sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .subtitle-form {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .form-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 90vw;
+    padding-left: 20px;
+  }
+
+  .form-ul li {
+    padding-top: 20px;
+  }
+
+  .form-ul input {
+    color: #172b4d;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    border: 1px solid #cfd8dc;
+    background-color: #fff;
+    width: 85vw;
+    height: 5vh;
+  }
+
+  .form-ul textarea {
+    color: #b3bac5;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    border: 1px solid #cfd8dc;
+    background-color: #fff;
+    width: 85vw;
+    height: 20vh;
+  }
+
+  .form-ul button {
+    margin-top: 15px;
+    color: #172b4d;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    border: 1px solid #cfd8dc;
+    background-color: #fff;
+    width: 27vw;
+    height: 5vh;
+  }
+
+  .form-ul button:hover {
+    font-family: Poppins, sans-serif;
+    background-color: #6070ff;
+    color: #fff;
+    border: 1px solid white;
+  }
+
+  .form-ul button:active {
+    background-color: #2230d2;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .form-ul button:disabled {
+    background-color: white;
+    color: #5e6c84;
+    border: 1px solid #5e6c84;
   }
 }
