@@ -484,7 +484,7 @@
   }
 }
 
-@media only screen and (min-width: 678px) {
+@media only screen and (min-width: 768px) {
   html {
     background: #e5e5e5;
   }
@@ -497,8 +497,19 @@
     font-family: Poppins-Bold, sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #091e42;
+    color: black;
     padding-left: 10vw;
+    animation-duration: 4s;
+    animation-name: appear;
+  }
+
+  @keyframes appear {
+    0% {
+      color: white;
+    }
+    100% {
+      color: black;
+    }
   }
 
   .header {
@@ -575,6 +586,8 @@
     font-size: 20px;
     padding-left: 10vw;
     padding-right: 22vw;
+    animation-name: appear;
+    animation-duration: 4s;
   }
 
   .connection {
@@ -626,7 +639,6 @@
   .grid-container {
     display: grid;
     gap: 50px;
-    margin-left: 124px;
     margin-right: 124px;
     grid-template-columns: repeat(auto-fill, minmax(50vw));
   }
@@ -635,12 +647,13 @@
     padding-bottom: 20px;
     background-color: #fff;
     margin-left: 50px;
-    margin-right: 50px;
     margin-top: 40px;
     border-radius: 15px;
     display: flex;
     flex-direction: row-reverse;
     border: 3px solid #dfe1e6;
+    min-width: 30%;
+    min-height: 30%;
   }
 
   .Desktop-version {
@@ -653,12 +666,13 @@
     padding-bottom: 20px;
     background-color: #fff;
     margin-left: 50px;
-    margin-right: 50px;
     margin-top: 75px;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
     border: 3px solid #dfe1e6;
+    min-width: 30%;
+    min-height: 30%;
   }
 
   .grid-card-type2 .Desktop-version p {
@@ -688,7 +702,7 @@
     font-family: Poppins-Bold, sans-serif;
     margin-left: 25px;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: clamp(1.5em, 2.5em, 4em);
     line-height: 52px;
   }
 
@@ -706,8 +720,8 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 16px;
-    width: 544px;
-    height: 448px;
+    min-width: 20%;
+    min-height: 20%;
   }
 
   .span-grid2 li {
@@ -854,16 +868,14 @@
 
   .arrow-popup {
     margin-left: 31vw;
-    padding-right: 10%;
   }
 
   .arrow-popup2 {
     margin-left: 30vw;
-    padding-right: 10%;
   }
 
   .arrow-popup3 {
-    margin-left: 34.5vw;
+    margin-left: 30vw;
   }
 
   .span-grid2 {
@@ -880,7 +892,7 @@
     font-family: Poppins-bold, sans-serif;
     opacity: 0.5;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(0.5em, 1.1em, 2em);
     line-height: 24px;
   }
 
