@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h3><b>Portfolio Project Final Movile Version</b></h3>
+  <h3><b>Portfolio Project Final Desktop version</b></h3>
 
 </div>
 
@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse!] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
 **[Responsive Portfolio]** is a short project with the objective of start practicing the professional way to work with CSS and HTML in responsive design, using the basic structure, data query, flexbox, CSS Grid and all following a template in Figma.
 
@@ -50,7 +50,7 @@
 
 - **[Have made with, Flexbox directly from a templete in Figma]**
 - **[Have a card system, a list of technologys and all made it with CSS Grid and Flexbox]**
-- **[In this project, we end with the movile version]**
+- **[In this project, we end with the desktop version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,8 +118,8 @@ To run the project:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Responsive for Desktops]**
-- [ ] **[Forms for get contact with me]**
+- [ ] **[Animations and Transitions]**
+- [ ] **[In future versions, we going to put this site in production]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
