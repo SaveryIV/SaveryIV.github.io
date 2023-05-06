@@ -641,14 +641,14 @@
   .grid-container {
     display: grid;
     gap: 50px;
-    margin-right: 124px;
+    margin-right: 250px;
+    margin-left: 250px;
     grid-template-columns: repeat(auto-fill, minmax(50vw));
   }
 
   .grid-card {
     padding-bottom: 20px;
     background-color: #fff;
-    margin-left: 50px;
     margin-top: 40px;
     border-radius: 15px;
     display: flex;
@@ -661,13 +661,12 @@
   .Desktop-version {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
   }
 
   .grid-card-type2 {
     padding-bottom: 20px;
     background-color: #fff;
-    margin-left: 50px;
     margin-top: 75px;
     border-radius: 15px;
     display: flex;
@@ -683,6 +682,7 @@
     font-size: 15px;
     line-height: 24px;
     padding-left: 25px;
+    margin-right: 30px;
     margin-bottom: 30;
     margin-top: 5px;
   }
@@ -712,6 +712,7 @@
     font-family: Poppins, sans-serif;
     font-weight: 400;
     padding-left: 25px;
+    margin-right: 20px;
     margin-bottom: 30;
     margin-top: 5px;
     font-size: 16px;
@@ -858,7 +859,7 @@
   }
 
   .list-work {
-    width: 50vw;
+    width: 45vw;
     list-style: none;
     padding-bottom: 25px;
   }
@@ -877,6 +878,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
+    place-content: space-between;
   }
 
   .in-list-work {
@@ -1031,20 +1033,6 @@
   }
 
   .box-arrow {
-    min-width: 50px;
-    max-width: 100%;
-    margin-left: 60%;
-  }
-
-  .box-arrow2 {
-    min-width: 50px;
-    max-width: 100%;
-    margin-left: 58%;
-  }
-
-  .box-arrow3 {
-    min-width: 50px;
-    max-width: 100%;
-    margin-left: 69%;
+    margin-right: 75px;
   }
 }
