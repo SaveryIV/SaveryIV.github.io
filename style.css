@@ -728,16 +728,15 @@
     animation-duration: 4s;
   }
 
-    @ keyframes-imag-appear {
+  @keyframes imag-appear {
     0% {
       opacity: 0;
-  }
+    }
 
     100% {
-      opacity : 1;
+      opacity: 1;
     }
   }
-
 
   .span-grid2 li {
     padding-left: 5px;
