@@ -53,11 +53,14 @@
 
   article {
     display: flex;
-    max-height: 90vh;
+    min-height: 113vh;
     flex-direction: column;
     background-color: white;
     border-bottom-left-radius: 15%;
     background-image: url("./resources/images/header-shapes\ mobilebackground-Main.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 99% -23%;
   }
 
   .item2 {
@@ -157,7 +160,7 @@
   }
 
   .work-section {
-    margin-top: 10%;
+    margin-top: 30%;
   }
 
   .grid-container {
@@ -325,11 +328,18 @@
 
   .list-work-li {
     font-family: Poppins-bold, sans-serif;
+    display: flex;
+    flex-direction: row;
     padding-bottom: 25px;
     padding-top: 10px;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
+    place-content: space-between;
+  }
+
+  .box-arrow {
+    margin-right: 25px;
   }
 
   .in-list-work {
@@ -337,17 +347,7 @@
     height: 200px;
   }
 
-  .arrow-popup {
-    margin-left: 40vw;
-  }
-
-  .arrow-popup2 {
-    margin-left: 38vw;
-  }
-
-  .arrow-popup3 {
-    margin-left: 54vw;
-  }
+  /* ------------------------------------------------------------------------------------------ */
 
   .span-grid2 {
     display: flex;

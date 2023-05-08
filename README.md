@@ -50,7 +50,7 @@
 
 - **[Have made with, Flexbox directly from a templete in Figma]**
 - **[Have a card system, a list of technologys and all made it with CSS Grid and Flexbox]**
-- **[In this project, we end with the desktop version]**
+- **[In this project, we end with the desktop version, and update with a upgrade of GithubPages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,6 +103,9 @@ To run the project:
 -Press that button and set the developers tools and select your toggle device toolbar.
 -And enjoy the project!.
 
+-----------------------------------------------------------------------------------------------------------------
+
+Also if you want can visit the site in "https://SaveryIV.github.io"
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -111,7 +114,7 @@ To run the project:
 
 - GitHub: [@SaveryIV](https://github.com/SaveryIV?tab=repositories)
 - LinkedIn: [Agustin Ricardo Soria Meza](https://www.linkedin.com/in/agust%C3%ADn-ricardo-soria-meza-979747228)
-
+- Site: (https://SaveryIV.github.io)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
