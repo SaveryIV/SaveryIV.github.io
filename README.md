@@ -14,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -51,6 +52,13 @@
 - **[Have made with, Flexbox directly from a templete in Figma]**
 - **[Have a card system, a list of technologys and all made it with CSS Grid and Flexbox]**
 - **[In this project, we end with the desktop version, and update with a upgrade of GithubPages]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](https://SaveryIV.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,9 +111,7 @@ To run the project:
 -Press that button and set the developers tools and select your toggle device toolbar.
 -And enjoy the project!.
 
------------------------------------------------------------------------------------------------------------------
 
-Also if you want can visit the site in "https://SaveryIV.github.io"
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
