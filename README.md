@@ -33,7 +33,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -46,8 +45,6 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[Have made with, Flexbox directly from a templete in Figma]**
 - **[Have a card system, a list of technologys and all made it with CSS Grid and Flexbox]**
@@ -125,7 +122,6 @@ To run the project:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Animations and Transitions]**
 - [ ] **[In future versions, we going to put this site in production]**
@@ -142,7 +138,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project share it with others you think can help to learn something new
 
@@ -150,7 +145,6 @@ If you like this project share it with others you think can help to learn someth
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Im want thank to this Reviewers who take to their time to see my code and give me solid advices and professional reviews of my code.
 
 I would like to thank (@NahnahAJ)https://github.com/NahnahAJ, (@Efiamotu-1)https://github.com/Efiamotu-1/ (My personal favorite reviewers XD)
 
