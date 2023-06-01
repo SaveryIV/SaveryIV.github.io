@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h3><b>Portfolio Project Final Desktop version</b></h3>
+  <h3><b>Portfolio Project Final Movile version</b></h3>
 
 </div>
 
