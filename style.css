@@ -29,7 +29,6 @@
   }
 
   .headline-container {
-    height: 60vh;
     width: 100vw;
   }
 
@@ -53,14 +52,14 @@
 
   article {
     display: flex;
-    min-height: 113vh;
+    min-height: 104vh;
+    max-height: 118vh;
     flex-direction: column;
     background-color: white;
-    border-bottom-left-radius: 15%;
+    border-bottom-left-radius: 50px;
     background-image: url("./resources/images/header-shapes\ mobilebackground-Main.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 99% -23%;
+    background-size: contain;
   }
 
   .item2 {
@@ -159,15 +158,11 @@
     margin-left: 26px;
   }
 
-  .work-section {
-    margin-top: 30%;
-  }
-
   .grid-container {
     display: grid;
-    gap: 50px;
     grid-template-columns: repeat(auto-fill, minmax(50vw));
     grid-auto-rows: 670px;
+    margin-bottom: 20%;
   }
 
   .grid-card {
@@ -175,7 +170,7 @@
     background-color: #fff;
     margin-left: 24px;
     margin-right: 24px;
-    margin-top: 40px;
+    margin-top: 20%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -187,7 +182,7 @@
     background-color: #fff;
     margin-left: 24px;
     margin-right: 24px;
-    margin-top: 75px;
+    margin-top: 20%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -198,6 +193,11 @@
     padding-left: 25px;
     font-size: 15px;
     font-weight: 400;
+  }
+
+  .desktop-version {
+    display: flex;
+    flex-direction: column;
   }
 
   .span-grid {
@@ -236,19 +236,7 @@
     padding-top: 16px;
   }
 
-  .span-grid2 li {
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: 15px;
-    margin-top: 0;
-    color: #031bf0;
-    font-family: Poppins-bold, sans-serif;
-    opacity: 0.5;
-    font-size: 13px;
-    line-height: 25px;
-    background-color: #d4d4ff;
-    border-radius: 8px;
-  }
+  
 
   .button-project {
     font-family: Poppins, sans-serif;
@@ -350,12 +338,26 @@
   /* ------------------------------------------------------------------------------------------ */
 
   .span-grid2 {
-    display: flex;
     height: 24px;
     list-style: none;
     padding-left: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+  }
+
+  .span-grid2 li {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 15px;
+    margin-top: 0;
+    color: #031bf0;
+    font-family: Poppins-bold, sans-serif;
+    opacity: 0.5;
+    font-size: 13px;
+    line-height: 25px;
+    background-color: #d4d4ff;
+    border-radius: 8px;
   }
 
   .span-grid li {
@@ -658,7 +660,7 @@
     min-height: 30%;
   }
 
-  .Desktop-version {
+  .desktop-version {
     display: flex;
     flex-direction: column;
     justify-content: left;
