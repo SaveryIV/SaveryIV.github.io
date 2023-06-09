@@ -52,8 +52,8 @@
 
   article {
     display: flex;
-    min-height: 104vh;
-    max-height: 118vh;
+    min-height: 600px;
+    max-height: 630px;
     flex-direction: column;
     background-color: white;
     border-bottom-left-radius: 50px;
