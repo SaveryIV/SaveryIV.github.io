@@ -770,6 +770,12 @@
     margin: 0;
   }
 
+  .tech-links-modal div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+
   .styled-modal h2 {
     padding-left: 20px;
     font-family: Poppins-Bold, sans-serif;
