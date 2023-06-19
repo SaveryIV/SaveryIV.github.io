@@ -8,15 +8,22 @@
     <title>Document</title>
   </head>
   <body class="body">
+  <div >
+      <ul class="nav-links">
+        <img src="/resources/images/Iconclose x.png" alt="x">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     <header class="header">
       <a href="index.html" class="brand">My Logo</a>
       <nav class="header nav">
         <ul class="header-menu">
-          <li><a href="index.html"></a>Portfolio</li>
-          <li><a href="index.html"></a>About</li>
-          <li><a href="index.html"></a>Contact</li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <img src="./resources/icons/Unionhamburger.png" alt="" />
+        <img src="./resources/icons/Unionhamburger.png" alt="menu" id="hamburger"/>
       </nav>
     </header>
     <main>
@@ -87,7 +94,7 @@
           </div>
         </article>
       </section>
-      <section class="work-section">
+      <section class="work-section" id="portfolio">
         <div class="grid-container">
           <div class="grid-card-type2">
             <img
@@ -95,7 +102,7 @@
               alt="image"
               class="grid-images"
             />
-            <div class="desktop-version">
+            <div class="Dasesktop-version">
               <h2 class="general-titles">Tonic</h2>
               <ul class="span-grid">
                 <li class="color">CANOPY</li>
@@ -232,16 +239,56 @@
                 <li>&nbsp&nbsp&nbsp CSS</li>
                 <li>&nbsp&nbsp&nbsp&nbsp JavaScript</li>
               </ul>
-              <button class="button-project">See Project</button>
+              <button class="button-project" >See Project</button>
             </div>
           </div>
+        </div>
+        <div class="blur-modal">
+          <dialog class="modal" id="modal">
+            <div class="styled-modal">
+              <h2 id="modal-title">Topic</h2>
+              <img src="/resources/images/Iconx close-dark.png" alt="close tab" class="close-button">
+            </div>
+            <ul class="span-grid">
+              <li class="color">CANOPY</li>
+              <img
+                src="./resources/work-section/icons/Counterdot.png"
+                alt=""
+                class="dot"
+              />
+              <li>Back End Dev</li>
+              <img
+                src="./resources/work-section/icons/Counterdot.png"
+                alt=""
+                class="dot"
+              />
+              <li>2015</li>
+            </ul>
+            <!--  -->
+              <img src="" alt="close tab" id="img-modal">
+            <!--  -->
+            <div class="modal-desktop-info">
+              <p id="p-modal"></p>
+              <div class="tech-links-modal">
+                <ul class="span-grid2">
+                  <li class="li-modal">&nbsp&nbsp&nbsp</li>
+                  <li class="li-modal">&nbsp&nbsp&nbsp</li>
+                  <li class="li-modal">&nbsp&nbsp&nbsp&nbsp</li>
+                </ul>
+                <div style="display: flex; flex-direction: row; align-content: center;">
+                  <button class="button-modal">See Live</button>
+                  <button class="button-modal">See Source</button>
+                </div>
+              </div>
+            </div>
+          </dialog>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer-container">
         <div class="first-part-footer">
-          <div class="about-myself">
+          <div class="about-myself" id="about">
             <h2>About Myself</h2>
             <p class="presentation2">
               I’m a software developer! I can help you build a product , feature
@@ -369,7 +416,7 @@
           method="POST"
           class="form-section"
         >
-          <label class="title-form">Contact me</label>
+          <label class="title-form" id="contact">Contact me</label>
           <p class="subtitle-form">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
@@ -406,6 +453,7 @@
         </form>
       </div>
     </footer>
-    <script src="index.js"></script>r
+  </div>
+  <script src="index.js"></script>
   </body>
 </html>

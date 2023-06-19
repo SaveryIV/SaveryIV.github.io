@@ -15,6 +15,10 @@
     margin: 0;
   }
 
+  .popup-open {
+    overflow: hidden;
+  }
+
   html {
     background: #e5e5e5;
   }
@@ -30,6 +34,39 @@
 
   .headline-container {
     width: 100vw;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #6070ff9c;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    backdrop-filter: blur(4px);
+    position: absolute;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .nav-links a {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-links img {
+    width: 4%;
+    padding-left: 88%;
+    padding-top: 20px;
   }
 
   .brand {
@@ -165,6 +202,18 @@
     margin-bottom: 20%;
   }
 
+  .styled-modal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .styled-modal img {
+    width: 5%;
+    height: 5%;
+  }
+
   .grid-card {
     padding-bottom: 20px;
     background-color: #fff;
@@ -200,6 +249,21 @@
     flex-direction: column;
   }
 
+  .modal {
+    height: 80vh;
+    width: 80vw;
+    border: 3px white;
+    border-radius: 15px;
+  }
+
+  .modal::backdrop {
+    background: #d5d8ebb6;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    backdrop-filter: blur(2px);
+  }
+
   .span-grid {
     display: flex;
     justify-content: left;
@@ -210,6 +274,7 @@
 
   h2 {
     margin: 0;
+    justify-self: left;
   }
 
   .general-titles {
@@ -236,7 +301,20 @@
     padding-top: 16px;
   }
 
-  
+  .button-modal {
+    font-family: Poppins, sans-serif;
+    width: 130px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    border-color: #396df2;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
 
   .button-project {
     font-family: Poppins, sans-serif;
@@ -496,6 +574,10 @@
     width: 100vw;
   }
 
+  .popup-open {
+    overflow: hidden;
+  }
+
   .title {
     font-family: Poppins-Bold, sans-serif;
     font-weight: 700;
@@ -514,6 +596,10 @@
     100% {
       color: black;
     }
+  }
+  
+  .nav-links {
+    display: none;
   }
 
   .header {
@@ -537,12 +623,13 @@
     padding-top: 20px;
   }
 
-  .header-menu li {
+  .header-menu li a{
     font-family: Poppins, sans-serif;
     color: #344563;
     font-weight: 500;
     font-size: 15px;
     padding-left: 40px;
+    text-decoration: none;
   }
 
   .brand {
@@ -660,11 +747,106 @@
     min-height: 30%;
   }
 
+  .modal {
+    border: 2px white;
+    width: 80%;
+    border-radius: 15px;
+    height: 80%;
+  }
+
+  .styled-modal {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .styled-modal img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .styled-modal h2 {
+    padding-left: 20px;
+    font-family: Poppins-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #img-modal {
+    width: 80%;
+    height: 100%;  
+    padding-left: 10%;
+  }
+
+  .modal-desktop-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modal-desktop-info p {
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    padding-right: 10px;
+  }
+
+  .button-modal {
+    font-family: Poppins, sans-serif;
+    width: 130px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    border-color: #396df2;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border: none;
+}
+
+  .tech-links-modal {
+    display: flex;
+    flex-direction: column;
+  }
+
   .desktop-version {
     display: flex;
     flex-direction: column;
     justify-content: left;
   }
+
 
   .grid-card-type2 {
     padding-bottom: 20px;
