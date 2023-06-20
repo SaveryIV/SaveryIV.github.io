@@ -625,6 +625,10 @@
     margin-bottom: 20px;
   }
 
+  .text-button img {
+    vertical-align: text-top;
+  }
+
   .header nav img {
     display: none;
   }
@@ -847,7 +851,7 @@
   }
 
   .grey-bar div {
-    background-color: #EBECF0;
+    background-color: #ebecf0;
     width: 92%;
     height: 2px;
     border-radius: 5%;
@@ -872,10 +876,6 @@
     vertical-align: text-bottom;
   }
 
-  .text-button img {
-    vertical-align: text-top;
-  }
-  
   ::-webkit-scrollbar-button {
     display: none;
   }
