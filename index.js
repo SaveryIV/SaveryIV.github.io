@@ -53,6 +53,16 @@ function handleScroll() {
   }
 }
 
+function displayMenu() {
+  scrollEnabled = false;
+  $navbar.style.display = 'flex';
+}
+
+function closeMenuHandler() {
+  scrollEnabled = true;
+  $navbar.style.display = 'none';
+}
+
 function popupScrollLock() {
   $body.classList.toggle('popup-open');
 }
