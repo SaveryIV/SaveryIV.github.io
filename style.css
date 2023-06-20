@@ -614,6 +614,11 @@
     justify-content: space-between;
   }
 
+  .container-img-m {
+    width: 100%;
+    height: auto;
+  }
+
   .container-img-m img {
     width: 100%;
     height: 100%;
@@ -796,9 +801,8 @@
   }
 
   #img-modal {
-    width: 80%;
-    height: 100%;
-    padding-left: 10%;
+    width: 100%;
+    height: auto;
   }
 
   .modal-desktop-info {
@@ -843,7 +847,7 @@
   }
 
   .grey-bar div {
-    background-color: #5e6c848a;
+    background-color: #EBECF0;
     width: 92%;
     height: 2px;
     border-radius: 5%;
@@ -864,6 +868,14 @@
     margin-top: 10px;
   }
 
+  .text-button {
+    vertical-align: text-bottom;
+  }
+
+  .text-button img {
+    vertical-align: text-top;
+  }
+  
   ::-webkit-scrollbar-button {
     display: none;
   }
