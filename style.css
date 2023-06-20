@@ -614,6 +614,12 @@
     justify-content: space-between;
   }
 
+  .container-img-m img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
   .header nav img {
     display: none;
   }
@@ -762,12 +768,6 @@
   .modal::backdrop {
     background: #a7a7a79c;
     backdrop-filter: blur(2px);
-  }
-
-  .container-img-m img {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
   }
 
   .styled-modal {
