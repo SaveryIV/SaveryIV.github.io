@@ -574,10 +574,6 @@
     width: 100vw;
   }
 
-  .popup-open {
-    overflow: hidden;
-  }
-
   .title {
     font-family: Poppins-Bold, sans-serif;
     font-weight: 700;
@@ -602,31 +598,11 @@
     display: none;
   }
 
-  .styled-modal img {
-    width: 15px;
-    height: 15px;
-  }
-
   .header {
     display: flex;
     background: white;
     width: 100vw;
     justify-content: space-between;
-  }
-
-  .container-img-m {
-    width: 100%;
-    height: auto;
-  }
-
-  .container-img-m img {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
-  }
-
-  .text-button img {
-    vertical-align: text-top;
   }
 
   .header nav img {
@@ -767,145 +743,8 @@
     min-height: 30%;
   }
 
-  .modal {
-    border: 2px rgba(255, 255, 255, 0.521);
-    width: 80%;
-    border-radius: 15px;
-    height: 80%;
-  }
-
-  .modal::backdrop {
-    background: #a7a7a79c;
-    backdrop-filter: blur(2px);
-  }
-
-  .styled-modal {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-  }
-
   h2 {
     margin: 0;
-  }
-
-  .tech-links-modal div {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-  }
-
-  .styled-modal h2 {
-    padding-left: 20px;
-    font-family: Poppins-Bold, sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-  }
-
-  #img-modal {
-    width: 100%;
-    height: auto;
-  }
-
-  .modal-desktop-info {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .modal-desktop-info p {
-    font-family: Poppins, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    text-align: justify;
-    padding-right: 10px;
-  }
-
-  .span-grid-modal {
-    display: flex;
-    height: 24px;
-    list-style: none;
-    padding-left: 10px;
-  }
-
-  .span-grid-modal li {
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: 5px;
-    margin-top: 0;
-    color: #031bf0;
-    font-family: Poppins-bold, sans-serif;
-    opacity: 0.5;
-    line-height: 25px;
-    background-color: #d4d4ff;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: 12px;
-  }
-
-  .grey-bar {
-    justify-content: center;
-    padding-bottom: 8px;
-  }
-
-  .grey-bar div {
-    background-color: #ebecf0;
-    width: 92%;
-    height: 2px;
-    border-radius: 5%;
-  }
-
-  .button-modal {
-    font-family: Poppins, sans-serif;
-    width: 130px;
-    height: 50px;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 24px;
-    color: #396df2;
-    border-color: #396df2;
-    background-color: #fff;
-    margin-left: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-
-  .text-button {
-    vertical-align: text-bottom;
-  }
-
-  ::-webkit-scrollbar-button {
-    display: none;
-  }
-
-  ::-webkit-scrollbar {
-    width: 8px;
-    background-color: transparent;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-
-  ::-webkit-scrollbar-track-piece {
-    background-color: transparent;
-    border: none;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-  }
-
-  .tech-links-modal {
-    display: flex;
-    flex-direction: column;
   }
 
   .desktop-version {
