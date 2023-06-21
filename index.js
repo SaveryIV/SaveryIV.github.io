@@ -44,7 +44,7 @@ function selectProject(buttonIndex) {
   $liModal.forEach((element, index) => {
     element.textContent = project.technologies[index];
   });
-  $modalTitle.textContent = project.name;
+  $modalTitle.textContent = project.namess;
 }
 
 function handleScroll() {
