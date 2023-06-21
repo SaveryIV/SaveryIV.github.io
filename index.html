@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
     <meta chars et="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,15 +9,22 @@
     <title>Document</title>
   </head>
   <body class="body">
+  <div >
+      <ul class="nav-links">
+        <img src="/resources/images/Iconclose x.png" alt="x">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     <header class="header">
       <a href="index.html" class="brand">My Logo</a>
       <nav class="header nav">
         <ul class="header-menu">
-          <li><a href="index.html"></a>Portfolio</li>
-          <li><a href="index.html"></a>About</li>
-          <li><a href="index.html"></a>Contact</li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <img src="./resources/icons/Unionhamburger.png" alt="" />
+        <img src="./resources/icons/Unionhamburger.png" alt="menu" id="hamburger"/>
       </nav>
     </header>
     <main>
@@ -87,7 +95,7 @@
           </div>
         </article>
       </section>
-      <section class="work-section">
+      <section class="work-section" id="portfolio">
         <div class="grid-container">
           <div class="grid-card-type2">
             <img
@@ -95,7 +103,7 @@
               alt="image"
               class="grid-images"
             />
-            <div class="desktop-version">
+            <div class="Desktop-version">
               <h2 class="general-titles">Tonic</h2>
               <ul class="span-grid">
                 <li class="color">CANOPY</li>
@@ -121,7 +129,7 @@
                 <li>CSS</li>
                 <li>JavaScript</li>
               </ul>
-              <button class="button-project">See Project</button>
+              <button type="button" class="button-project">See Project</button>
             </div>
           </div>
           <div class="grid-card">
@@ -159,7 +167,7 @@
                 <li>CSS</li>
                 <li>JavaScript</li>
               </ul>
-              <button class="button-project">See Project</button>
+              <button type="button" class="button-project">See Project</button>
             </div>
           </div>
           <div class="grid-card-type2">
@@ -194,7 +202,7 @@
                 <li>CSS</li>
                 <li>JavaScript</li>
               </ul>
-              <button class="button-project">See Project</button>
+              <button type="button" class="button-project">See Project</button>
             </div>
           </div>
           <div class="grid-card">
@@ -232,7 +240,7 @@
                 <li>&nbsp&nbsp&nbsp CSS</li>
                 <li>&nbsp&nbsp&nbsp&nbsp JavaScript</li>
               </ul>
-              <button class="button-project">See Project</button>
+              <button type="button" class="button-project" >See Project</button>
             </div>
           </div>
         </div>
@@ -241,7 +249,7 @@
     <footer class="footer">
       <div class="footer-container">
         <div class="first-part-footer">
-          <div class="about-myself">
+          <div class="about-myself" id="about">
             <h2>About Myself</h2>
             <p class="presentation2">
               I’m a software developer! I can help you build a product , feature
@@ -298,7 +306,7 @@
                 /></a>
               </li>
             </ul>
-            <button class="button-footer">Get my resume</button>
+            <button type="button" class="button-footer">Get my resume</button>
           </div>
           <div class="skills-work">
             <ul class="list-work">
@@ -369,7 +377,7 @@
           method="POST"
           class="form-section"
         >
-          <label class="title-form">Contact me</label>
+          <label class="title-form" id="contact">Contact me</label>
           <p class="subtitle-form">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
@@ -401,11 +409,12 @@
                 maxlength="550"
               ></textarea>
             </li>
-            <button name="my-button">Get in touch</button>
+            <button type="submit" name="my-button">Get in touch</button>
           </ul>
         </form>
       </div>
     </footer>
-    <script src="index.js"></script>r
+  </div>
+  <script src="index.js"></script>
   </body>
 </html>

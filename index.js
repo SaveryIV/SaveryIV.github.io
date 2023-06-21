@@ -1,13 +1,39 @@
-let $title = document.querySelector(".title");
+const $hamburger = document.querySelector('#hamburger');
+const $navbar = document.querySelector('.nav-links');
+const $closeMenuButton = document.querySelector('.nav-links img');
+const $linksMenu = document.querySelectorAll('.nav-links li a');
+let scrollEnabled = true;
 
-let div = document.createElement('div');
-div.id = 'content';
-div.className = 'note';
+function handleScroll() {
+  if (!scrollEnabled) {
+    window.scrollTo(0, 0);
+  }
+}
 
-// create a new heading and add it to the div
-let h2 = document.createElement('h2');
-h2.textContent = 'Add h2 element to the div';
-div.appendChild(h2);
+function displayMenu() {
+  scrollEnabled = false;
+  $navbar.style.display = 'flex';
+}
 
-// add div to the document
-document.body.appendChild(div);
+function closeMenuHandler() {
+  scrollEnabled = true;
+  $navbar.style.display = 'none';
+}
+
+$hamburger.addEventListener('click', () => {
+  displayMenu();
+});
+
+$closeMenuButton.addEventListener('click', () => {
+  closeMenuHandler();
+});
+
+window.addEventListener('scroll', () => {
+  handleScroll();
+});
+
+$linksMenu.forEach((e) => {
+  e.addEventListener('click', () => {
+    closeMenuHandler();
+  });
+});

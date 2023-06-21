@@ -15,6 +15,10 @@
     margin: 0;
   }
 
+  .popup-open {
+    overflow: hidden;
+  }
+
   html {
     background: #e5e5e5;
   }
@@ -30,6 +34,39 @@
 
   .headline-container {
     width: 100vw;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #6070ff9c;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    backdrop-filter: blur(4px);
+    position: absolute;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-links li {
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .nav-links a {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-links img {
+    width: 4%;
+    padding-left: 88%;
+    padding-top: 20px;
   }
 
   .brand {
@@ -165,6 +202,18 @@
     margin-bottom: 20%;
   }
 
+  .styled-modal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .styled-modal img {
+    width: 5%;
+    height: 5%;
+  }
+
   .grid-card {
     padding-bottom: 20px;
     background-color: #fff;
@@ -200,6 +249,21 @@
     flex-direction: column;
   }
 
+  .modal {
+    height: 80vh;
+    width: 80vw;
+    border: 3px white;
+    border-radius: 15px;
+  }
+
+  .modal::backdrop {
+    background: #d5d8ebb6;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    backdrop-filter: blur(2px);
+  }
+
   .span-grid {
     display: flex;
     justify-content: left;
@@ -210,6 +274,7 @@
 
   h2 {
     margin: 0;
+    justify-self: left;
   }
 
   .general-titles {
@@ -236,7 +301,20 @@
     padding-top: 16px;
   }
 
-  
+  .button-modal {
+    font-family: Poppins, sans-serif;
+    width: 130px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    border-color: #396df2;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
 
   .button-project {
     font-family: Poppins, sans-serif;
@@ -516,6 +594,10 @@
     }
   }
 
+  .nav-links {
+    display: none;
+  }
+
   .header {
     display: flex;
     background: white;
@@ -537,12 +619,13 @@
     padding-top: 20px;
   }
 
-  .header-menu li {
+  .header-menu li a {
     font-family: Poppins, sans-serif;
     color: #344563;
     font-weight: 500;
     font-size: 15px;
     padding-left: 40px;
+    text-decoration: none;
   }
 
   .brand {
@@ -660,6 +743,10 @@
     min-height: 30%;
   }
 
+  h2 {
+    margin: 0;
+  }
+
   .desktop-version {
     display: flex;
     flex-direction: column;
@@ -696,10 +783,7 @@
     padding-left: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-
-  h2 {
-    margin: 0;
+    align-items: baseline;
   }
 
   .general-titles {
@@ -743,7 +827,7 @@
   .span-grid2 li {
     padding-left: 5px;
     padding-right: 5px;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: 0;
     color: #031bf0;
     font-family: Poppins-bold, sans-serif;
@@ -905,7 +989,7 @@
     display: flex;
     height: 24px;
     list-style: none;
-    padding-left: 10px;
+    padding-left: 15px;
   }
 
   .span-grid li {
