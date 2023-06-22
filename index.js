@@ -1,7 +1,9 @@
 const $body = document.querySelector('.body');
 const $form = document.querySelector('.form-section');
+const $user = document.querySelector('#user_name');
 const $email = $form.elements.user_email;
 const $small = $email.parentNode.querySelector('small');
+const $textarea = document.querySelector('textarea');
 const $hamburger = document.querySelector('#hamburger');
 const $navbar = document.querySelector('.nav-links');
 const $closeMenuButton = document.querySelector('.nav-links img');
@@ -40,6 +42,15 @@ const projectsInfo = [{
   image: frthImagePath,
 }];
 const failedMsg = "The email can't recive input in lower case";
+
+function storageData() {
+  const info = {
+    name: $user.value,
+    email: $email.value,
+    msg: $textarea.value,
+  };
+  localStorage.setItem('info', JSON.stringify(info));
+}
 
 function selectProject(buttonIndex) {
   const project = projectsInfo[buttonIndex];
@@ -95,6 +106,20 @@ $closeMenuButton.addEventListener('click', () => {
 });
 
 $form.addEventListener('submit', formValidate);
+
+$user.addEventListener('focusout', storageData);
+
+$email.addEventListener('focusout', storageData);
+
+$textarea.addEventListener('focusout', storageData);
+
+const data = JSON.parse(localStorage.getItem('info'));
+
+if (data) {
+  $email.value = data.email;
+  $textarea.value = data.msg;
+  $user.value = data.name;
+}
 
 window.addEventListener('scroll', () => {
   handleScroll();
