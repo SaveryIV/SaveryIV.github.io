@@ -1241,6 +1241,11 @@
     height: 5vh;
   }
 
+  .alert {
+    font-family: Poppins, sans-serif;
+    position: absolute;
+  }
+
   .form-ul input::placeholder {
     color: #031bf0;
   }
