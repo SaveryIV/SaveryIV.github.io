@@ -1,4 +1,7 @@
 const $body = document.querySelector('.body');
+const $form = document.querySelector('.form-section');
+const $email = $form.elements.user_email;
+const $small = $email.parentNode.querySelector('small');
 const $hamburger = document.querySelector('#hamburger');
 const $navbar = document.querySelector('.nav-links');
 const $closeMenuButton = document.querySelector('.nav-links img');
@@ -36,6 +39,7 @@ const projectsInfo = [{
   technologies: ['HTML', 'CSS', 'Javascript'],
   image: frthImagePath,
 }];
+const failedMsg = "The email can't recive input in lower case";
 
 function selectProject(buttonIndex) {
   const project = projectsInfo[buttonIndex];
@@ -45,6 +49,13 @@ function selectProject(buttonIndex) {
     element.textContent = project.technologies[index];
   });
   $modalTitle.textContent = project.name;
+}
+
+function formValidate(event) {
+  if ($email.value !== $email.value.toLowerCase()) {
+    $small.innerHTML = failedMsg;
+    event.preventDefault();
+  } else { $small.style.visibility = 'hidden'; }
 }
 
 function handleScroll() {
@@ -82,6 +93,8 @@ $hamburger.addEventListener('click', () => {
 $closeMenuButton.addEventListener('click', () => {
   closeMenuHandler();
 });
+
+$form.addEventListener('submit', formValidate);
 
 window.addEventListener('scroll', () => {
   handleScroll();
